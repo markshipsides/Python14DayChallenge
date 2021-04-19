@@ -5,7 +5,7 @@ CharacterName = "Jimmy The Snowman"
 YearOfBirth = 1945
 MonthOfBirth = 4
 DayOfBirth = 1
-DateOfBirth =  (YearOfBirth,MonthOfBirth,DayOfBirth)
+DateOfBirth = (YearOfBirth,MonthOfBirth,DayOfBirth)
 
 CharacterSex = "Male"
 CharacterAlive = True
