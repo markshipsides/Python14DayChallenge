@@ -1,19 +1,19 @@
 # Mark Shipsides - Python Challenge Day 01 - Abstraction
 
-CalendarMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-CharacterName = "Jimmy The Snowman"
-YearOfBirth = 1945
-MonthOfBirth = 4
-DayOfBirth = 1
-DateOfBirth = (YearOfBirth,MonthOfBirth,DayOfBirth)
+CALENDAR_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+character_name = "Jimmy The Snowman"
+year_of_birth = 1945
+month_of_birth = 4
+day_of_birth = 1
+date_of_birth = (year_of_birth,month_of_birth,day_of_birth)
 
-CharacterSex = "Male"
-CharacterAlive = True
+character_sex = "Male"
+character_alive = True
 
-print("Character's Name:", CharacterName)
-print("Character Born:", DayOfBirth, CalendarMonths[MonthOfBirth], YearOfBirth)
+print("Character's Name:", character_name)
+print("Character Born:", day_of_birth, CALENDAR_MONTHS[month_of_birth], year_of_birth)
 
-if CharacterAlive:
+if character_alive:
     print("Character Is Alive")
 else:
     print("Character Is Dead")
