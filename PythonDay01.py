@@ -1,4 +1,4 @@
-# Mark Shipsides - Python Challenge Day 01 - Abstraction
+# Mark_Shipsides - Python Challenge Day 01 - Abstraction
 
 CALENDAR_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 character_name = "Jimmy The Snowman"
