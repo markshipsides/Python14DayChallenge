@@ -13,7 +13,7 @@ extended_superpowers: list = list(BASIC_SUPERPOWERS)
 
 print("Character's Name:", character_name)
 print("Character Born:", day_of_birth, CALENDAR_MONTHS[month_of_birth], year_of_birth)
-print(BASIC_SUPERPOWERS[:])
+
 new_superpower = input("Please add a Superpower: ")
 
 if new_superpower in extended_superpowers:
@@ -21,4 +21,4 @@ if new_superpower in extended_superpowers:
 else:
     extended_superpowers.append(new_superpower)
 
-print("Full list of superpowers", extended_superpowers[::-1])
+print("Full list of Superpowers", extended_superpowers[::-1])
