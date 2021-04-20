@@ -15,7 +15,7 @@ new_superpower: str
 
 print("Character's Name:", character_name)
 print("Character Born:", day_of_birth, CALENDAR_MONTHS[month_of_birth], year_of_birth)
-
+print("Basic superpowers are: ", BASIC_SUPERPOWERS)
 new_superpower = input("Please add a Superpower: ")
 extended_superpowers.add(new_superpower)
 print("Full list of Superpowers ", extended_superpowers)
