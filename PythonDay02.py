@@ -22,5 +22,6 @@ if new_superpower in extended_superpowers:
     print("Sorry " + new_superpower + " already exists")
 else:
     extended_superpowers.append(new_superpower)
+    print("Thank you, " + new_superpower + " added")
 
-print("Full list of Superpowers", extended_superpowers[::-1])
+print("Full list of Superpowers ", extended_superpowers[::-1])
