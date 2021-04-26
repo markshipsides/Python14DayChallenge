@@ -33,6 +33,5 @@ superpower_test_value = extended_superpowers[superpower_test]
 
 if superpower_test_value > SUPERPOWER_UPPER_LIMIT:
     print("SUPER COOL")
-else:
-    if SUPERPOWER_LOWER_LIMIT < superpower_test_value < SUPERPOWER_UPPER_LIMIT:
-        print("COOL")
+elif superpower_test_value > SUPERPOWER_LOWER_LIMIT:
+    print("COOL")
