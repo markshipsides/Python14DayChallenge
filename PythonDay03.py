@@ -17,15 +17,13 @@ character_alive: bool = True
 extended_superpowers = BASIC_SUPERPOWERS
 new_superpower: str
 new_superpower_rating: int
-superpower_test: str
-superpower_test_value: int
 
 print("Character's Name:", character_name)
 print("Character Born:", day_of_birth, CALENDAR_MONTHS[month_of_birth], year_of_birth)
 print("Basic superpowers are: ", BASIC_SUPERPOWERS)
 
 new_superpower = input("Please add a Superpower: ")
-new_superpower_rating = int(input("Please add a Superpower Rating: "))
+new_superpower_rating = int(input("Please add a rating (0-100) for " + new_superpower + ": "))
 extended_superpowers[new_superpower] = new_superpower_rating
 
 print("Full list of Superpowers ", extended_superpowers)
