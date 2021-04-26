@@ -2,8 +2,7 @@
 
 
 def squared_list(number_string):
-    number_list = [int(x) for x in number_string.split(',')]
-    squares_list = [x * x for x in number_list]
+    squares_list = [int(x) * int(x) for x in number_string.split(',')]
     return sum(squares_list)
 
 
