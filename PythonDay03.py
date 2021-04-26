@@ -1,4 +1,4 @@
-# MarkS - Python Challenge Day 02 - Logic
+# MarkS - Python Challenge Day 03 - Flow control
 
 CALENDAR_MONTHS: tuple = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 BASIC_SUPERPOWERS: dict = {"Flight": 51, "Speed": 90}
