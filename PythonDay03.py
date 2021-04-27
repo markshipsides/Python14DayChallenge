@@ -2,7 +2,6 @@
 
 CALENDAR_MONTHS: tuple = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 BASIC_SUPERPOWERS: dict = {"Flight": 51, "Speed": 90}
-WALLET: dict = {"USD": 170, "GBP": 50, "EUR": 30, "YEN": 50}
 SUPERPOWER_UPPER_LIMIT = 80
 SUPERPOWER_LOWER_LIMIT = 50
 
