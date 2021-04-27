@@ -1,7 +1,6 @@
 # MarkS - Python Challenge Day 09 - Exceptions
 from PythonDay08Mod import *
 
-
 while True:
     try:
         minimum_rating = int(input("Please Enter Minimum rating value between 0-100: "))
