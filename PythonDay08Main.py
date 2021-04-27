@@ -1,8 +1,5 @@
 # MarkS - Python Challenge Day 08Main - Re-usability
-from PythonDay08Mod import meet_ratings, amount_spent
-
-BASIC_SUPERPOWERS: dict = {"Flight": 51, "Speed": 90, "Strength": 50, "Sight": 30}
-MY_WALLET: dict = {"USD": 170, "GBP": 50, "EUR": 30, "YEN": 50}
+from PythonDay08Mod import *
 
 minimum_rating = int(input("Please Enter Minimum rating value: "))
 print(meet_ratings(BASIC_SUPERPOWERS, minimum_rating))
