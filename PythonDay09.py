@@ -5,8 +5,11 @@ while True:
     try:
         minimum_rating = int(input("Please Enter Minimum rating value between 0-100: "))
         break
-    except ValueError:
+    except ValueError as err:
+        # error_message = str(err)
+        # print(error_message)
         print("Not an integer")
+
 
 print(meet_ratings(BASIC_SUPERPOWERS, minimum_rating))
 chosen_currency = input("Please Select a currency: ")
