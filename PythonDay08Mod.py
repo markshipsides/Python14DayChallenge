@@ -3,8 +3,8 @@ from typing import List
 
 BASIC_SUPERPOWERS: dict = {"Flight": 51, "Speed": 90, "Strength": 50, "Sight": 30}
 MY_WALLET: dict = {"USD": 170, "GBP": 50, "EUR": 30, "YEN": 50}
-
 ratings = List[str]
+
 
 def meet_ratings(rating_dict: dict, rating_minimum: int) -> ratings:
     rating_list: list = []
