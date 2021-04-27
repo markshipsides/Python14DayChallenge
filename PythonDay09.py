@@ -12,6 +12,6 @@ while True:
 
 
 print(meet_ratings(BASIC_SUPERPOWERS, minimum_rating))
-chosen_currency = input("Please Select a currency: ")
-currency_amount = int(input("Please choose an amount to spend: "))
+chosen_currency, currency_amount = input("Please Enter a Currency and Amount to spend: ").split()
+currency_amount = int(currency_amount)
 print(amount_spent(MY_WALLET, chosen_currency, currency_amount))
