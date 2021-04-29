@@ -1,21 +1,17 @@
 # MarkS - Python Challenge Day 11mod - Object-oriented programming
-from typing import List
-
-BASIC_SUPERPOWERS: dict = {"Flight": 51, "Speed": 90, "Strength": 50, "Sight": 30}
-MY_WALLET: dict = {"USD": 170, "GBP": 50, "EUR": 30, "YEN": 50}
-ratings = List[str]
+from typing import Dict
 
 
-def meet_ratings(rating_dict: dict, rating_minimum: int) -> ratings:
-    rating_list: list = []
-    for rating_name, rating_value in rating_dict.items():
-        if rating_value >= rating_minimum:
-            rating_list.append(rating_name)
-    return rating_list
+class Wallet:
+
+    name: str
+    balances: Dict[str, int]
 
 
-def amount_spent(wallet: dict, currency: str, currency_spent: int) -> int:
-    currency_available: int = wallet.get(currency, 0)
-    if currency_available > currency_spent:
-        currency_available = currency_spent
-    return currency_available
+def spend_money(self, currency: str, amount: int) -> int:
+    self.balances[currency] = self.balances[currency].get(currency, 0) - amount
+    return self.balances[currency]
+
+
+def display_balances(self):
+    print(self.balances)

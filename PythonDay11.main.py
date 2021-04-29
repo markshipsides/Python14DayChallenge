@@ -1,9 +1,7 @@
 # MarkS - Python Challenge Day 11main - Object-oriented programming
 from PythonDay11mod import *
 
-minimum_rating = int(input("Please Enter Minimum rating value: "))
-print(meet_ratings(BASIC_SUPERPOWERS, minimum_rating))
-
-chosen_currency = input("Please Select a currency: ")
-currency_amount = int(input("Please choose an amount to spend: "))
-print(amount_spent(MY_WALLET, chosen_currency, currency_amount))
+mark_wallet = Wallet()
+mark_wallet.name = "Marks International Wallet"
+mark_wallet.balances = {"GBP": 100, "EUR": 80}
+new_gbp_balance = mark_wallet.spend_money("GBP",50)
