@@ -1,6 +1,4 @@
 # MarkS - Python Challenge Day 11mod - Object-oriented programming
-# from typing import Dict
-
 
 class Wallet:
 
